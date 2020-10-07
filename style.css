@@ -1,0 +1,148 @@
+
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+} 
+
+body{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    font-family: Avenir, 'sans-serif';
+    background-position: top 100px right 100px;
+    max-height: 2560px;
+    background-size: auto auto;
+}
+
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 5%;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.navbar .nav_links{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.nav_links .navlink{
+    margin-right: 40px;
+}
+
+.nav_links .nav-item{
+    text-decoration: none;
+    color: #959595;
+    margin: 0 10px;
+}
+
+.nav_button{
+    display: flex;
+    font-size: 14px;
+}
+
+.nav_button .first_navbutton{
+    border: 2px solid #959595;
+    color: black;
+    background-color:white;
+    padding: 10px 21px;
+    border-radius: 30px;
+    margin-right: 10px;;
+}
+
+.nav_button .second_navbutton{
+    border: 2px solid #89C5CC;
+    color: white;
+    background-color:#89C5CC;
+    padding: 10px 21px;
+    border-radius: 30px;
+}
+
+.firstbodysection{
+    max-width: 1050px;
+    height: 800px;;
+    margin: 0 auto;
+    background-image: url(images/CHECK\ IN\ [NORMAL]\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 0px right -65px;
+}
+
+.first_summary{
+    margin-top: 130px;
+    width: 50%;
+}
+
+.bodytext{
+    color:black;
+    font-family: Roboto, 'sans-serif';
+}
+
+.bodytext .text{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+.text .makeskyblue{
+    color: #89C5CC;
+}
+
+.bodytext .summary{
+    font-family: Roboto, sans-serif;
+    color: #747474;
+    font-size: 14px;
+    line-height: 180%;
+    margin-top: 25px;
+}
+
+.ellipses{
+    position: relative;
+    padding: 20px 0px;  
+    width: 20%
+}
+
+.bodybutton{
+    margin-top: 100px;
+}
+
+.bodybutton .btn1{
+    /* position: relative; */
+    font-size: 14px;
+    border: 1px solid #89C5CC;
+    color: white;
+    background-color:#89C5CC;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.first_sampleimages{
+    position: relative;
+    left: 590px;
+    bottom: 300px;
+}
+
+.sample_snip{
+    position: relative;
+    left: 30px;
+    top: 110px;
+}
+
+.sample_checkmark{
+    position: absolute;
+    left: 85px;
+    bottom: 225px;
+}
